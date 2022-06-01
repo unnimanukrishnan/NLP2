@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="User" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Request" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Friends" />
+
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="All" />
+
+
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Post" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Shared Post" />
+
+        <item
+            android:id="@+id/nav_com"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rating" />
+
+        <item
+            android:id="@+id/nav_analysis"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Analysis" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>
+</menu>

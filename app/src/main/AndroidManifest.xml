@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nlp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NLP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".View_shared_all_post"
+            android:exported="false" />
+        <activity
+            android:name=".popup"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity
+            android:name=".Analysis"
+            android:exported="false" />
+        <activity
+            android:name=".Send_rating"
+            android:exported="false" />
+        <activity android:name=".Sentcomplaint" />
+        <activity android:name=".viewreply" />
+        <activity
+            android:name=".View_all_post"
+            android:exported="false" />
+
+        <uses-library android:name="org.apache.http.legacy" />
+
+        <activity
+            android:name=".view_my_post"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_post"
+            android:exported="false" />
+        <activity
+            android:name=".View_friends"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/Theme.NLP.NoActionBar" />
+        <activity
+            android:name=".send_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".view_post"
+            android:exported="false" />
+        <activity
+            android:name=".view_replay"
+            android:exported="false" />
+        <activity
+            android:name=".friend_request"
+            android:exported="false" />
+        <activity
+            android:name=".view_users"
+            android:exported="false" />
+        <activity
+            android:name=".post"
+            android:exported="false" />
+        <activity
+            android:name=".complaint"
+            android:exported="false" />
+        <activity
+            android:name=".comment"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Test" />
+    </application>
+
+</manifest>
